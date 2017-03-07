@@ -62,7 +62,7 @@ class SiteController extends Controller
 /*        if(Yii::$app->wechat->isWechat && !Yii::$app->wechat->isAuthorized()) {
             return Yii::$app->wechat->authorizeRequired()->send();
         }*/
-        $payment = Yii::$app->wechat->payment->prepare();
+       // $payment = Yii::$app->wechat->payment->prepare();
 
 //        var_dump($payment);
 
